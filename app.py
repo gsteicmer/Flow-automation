@@ -14,7 +14,7 @@ if st.button("Generate Verdict"):
     if idea_name and description:
         with st.spinner("The Agent is searching Google and analyzing..."):
             # PASTE YOUR N8N WEBHOOK URL (PRODUCTION) HERE
-            webhook_url = "https://your-domain.app.n8n.cloud/webhook/your-id"
+            webhook_url = "https://flow-automation-studio.app.n8n.cloud/webhook/c04361c7-bfd9-4e8e-9173-fcd8c905e05f"
 
             payload = {
                 "Name of Your Idea": idea_name,
