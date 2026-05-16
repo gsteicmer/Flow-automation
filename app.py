@@ -33,7 +33,7 @@ if st.button("Generate Verdict"):
                     # Displaying Score and Verdict in a beautiful way
                     col1, col2 = st.columns(2)
                     with col1:
-                        st.metric("Market Score", f"{int(data['score'])}/100")
+                        st.metric("Market Score", f"{int(data['score'])}/10")
                     with col2:
                         color = "green" if data['verdict'] == "VALIDATE" else "red"
                         st.markdown(f"### Verdict: :{color}[{data['verdict']}]")
